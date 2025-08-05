@@ -24,15 +24,14 @@ Script em Python para automatizar a organização de Notas Fiscais eletrônicas 
   - Número da nota
   - Caminho original e novo
 - Estrutura gerada:
+
+  
 notas/
 ├── 12345678000195_MercadoXYZ/
 │ ├── NF123456.xml
 │ ├── NF123456.pdf
 ├── 98765432000100_ConstrutoraABC/
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -46,6 +45,8 @@ Editar
 
 ## 📁 Estrutura do Projeto
 
+
+
 organizador_nf/
 ├── organizar_notas.py
 ├── entrada/
@@ -54,9 +55,7 @@ organizador_nf/
 ├── notas/
 ├── log_notas.csv
 
-yaml
-Copiar
-Editar
+
 
 ---
 
