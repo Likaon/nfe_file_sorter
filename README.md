@@ -27,10 +27,10 @@ Script em Python para automatizar a organização de Notas Fiscais eletrônicas 
 
   
 notas/
-├── 12345678000195_MercadoXYZ/
-│ ├── NF123456.xml
-│ ├── NF123456.pdf
-├── 98765432000100_ConstrutoraABC/
+├── 12345678000195_MercadoXYZ/ 
+│ ├── NF123456.xml 
+│ ├── NF123456.pdf 
+├── 98765432000100_ConstrutoraABC/ 
 
 
 ---
@@ -55,18 +55,17 @@ organizador_nf/
 ├── notas/
 ├── log_notas.csv
 
-
-
 ---
 
 ## ▶️ Como usar
 
 1. Coloque os arquivos XML e PDF na pasta `entrada/`
 2. Execute o script:
-```bash
+
 python organizar_notas.py
 Os arquivos serão movidos automaticamente para notas/ em subpastas organizadas por empresa, e o log será salvo em log_notas.csv.
 
+---
 
 ## 🧾 NFe Organizer (XML and PDF) — English Version
 
